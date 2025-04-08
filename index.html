@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic Vision | Digital Art Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Brown's<span>Art</span></a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animated-text">Welcome to My <span>Artistic</span> World</h1>
+            <p class="subtitle">Where imagination meets canvas</p>
+            <a href="#gallery" class="btn">Explore Gallery</a>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="section-header">
+            <h2>My Artworks</h2>
+            <p>A collection of my creative expressions</p>
+        </div>
+        <div class="gallery-container">
+            <!-- Gallery items will be added dynamically via JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>About The Artist</h2>
+                <p>I'm a passionate artist dedicated to creating visually stunning pieces that evoke emotion and tell stories. My work blends traditional techniques with modern digital approaches to create unique compositions.</p>
+                <p>Each piece is a journey into my imagination, where colors, shapes, and textures come together to form something truly special.</p>
+                <div class="signature">~ The Artist</div>
+            </div>
+            <div class="about-image">
+                <div class="image-frame">
+                    <img src="WhatsApp Image 2025-04-08 at 21.40.02_ad8c3891.jpg" alt="The Artist">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop-section">
+        <div class="section-header">
+            <h2>Art Shop</h2>
+            <p>Purchase original artworks and prints</p>
+        </div>
+        <div class="shop-container">
+            <!-- Shop items will be added dynamically via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>For commissions, collaborations, or just to say hello!</p>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>brownsart.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+233 5943 57029</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Brown's Art. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Artwork Modal -->
+    <div class="artwork-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-image-container">
+                <img src="" alt="Artwork" class="modal-image">
+            </div>
+            <div class="modal-info">
+                <h3 class="modal-title"></h3>
+                <p class="modal-description"></p>
+                <div class="modal-meta">
+                    <span class="modal-size"></span>
+                    <span class="modal-medium"></span>
+                </div>
+                <div class="modal-price"></div>
+                <button class="btn purchase-btn">Purchase</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
